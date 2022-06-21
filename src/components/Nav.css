@@ -1,5 +1,14 @@
 .nav {
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
+  color: blue;
+}
+
+.back {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 30px;
+  color: black;
 }
