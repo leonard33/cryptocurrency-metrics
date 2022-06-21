@@ -3,6 +3,7 @@
   justify-content: center;
   display: flex;
   color: blue;
+  border-radius: 10px;
 }
 
 .back {
