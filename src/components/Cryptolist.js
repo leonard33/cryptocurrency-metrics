@@ -8,6 +8,7 @@ const Cryptolist = () => {
   const { data: cryptodetaildata, isFetching } = useGetCryptosQuery();
 
   const cryptos = cryptodetaildata?.data?.coins;
+  console.log(cryptos);
 
   if (isFetching) return "Loading...";
 

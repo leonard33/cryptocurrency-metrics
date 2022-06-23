@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `null`;
+
+exports[`renders data in the card as from API 1`] = `
+<div
+  className="cryptoitem-container"
+>
+  <div
+    className="icon-container"
+  >
+    <div
+      className="icon"
+    />
+    <div
+      className="symbol"
+    />
+  </div>
+  <div
+    className="left"
+  >
+    <div
+      className="coin-name"
+    />
+    <div
+      className="marketcap"
+    >
+      +
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders data in the item as from API 1`] = `
+<div
+  className="cryptoitem-container"
+>
+  <div
+    className="icon-container"
+  >
+    <div
+      className="icon"
+    />
+    <div
+      className="symbol"
+    />
+  </div>
+  <div
+    className="left"
+  >
+    <div
+      className="coin-name"
+    />
+    <div
+      className="marketcap"
+    >
+      +
+    </div>
+  </div>
+</div>
+`;
