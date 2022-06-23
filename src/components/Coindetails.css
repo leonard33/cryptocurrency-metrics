@@ -28,12 +28,12 @@
   justify-content: center;
 }
 
-.data { 
+.data {
   display: flex;
   align-items: center;
   width: 70vw;
   font-size: 18px;
-  padding: 12px 0px;
+  padding: 12px 15px;
   margin: 10px auto;
   background-image: url("../assets/bgimage.jpg");
   background-position: center;
