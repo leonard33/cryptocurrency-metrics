@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import millify from "millify";
 import { useGetCryptosDetailQuery } from "../redux/cryptoApi";
@@ -9,9 +9,6 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Coinsdetails = () => {
   const { coinid } = useParams();
   const { data: coindetail, isFetching } = useGetCryptosDetailQuery(coinid);
-  // const [datastate, setDatastate] = useState(data?.data?.coins?);
-  console.log(coindetail?.data?.coins, "my detail");
-  console.log(coindetail?.data?.coins?.stats, "my stats");
 
   let coined = {};
   let statistics = {};
@@ -24,9 +21,6 @@ const Coinsdetails = () => {
   statistics = coindetail?.data?.coins?.stats?.filter((item) => {
     return item.uuid == coinid;
   });
-
-  console.log(coined);
-  console.log(statistics);
 
   return (
     <div className="details-container">
