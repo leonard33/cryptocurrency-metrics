@@ -18,11 +18,14 @@ export const cryptoApi = createApi({
     getCryptos: builder.query({
       query: () => createrequest("/coins"),
     }),
+    getCryptosDetail: builder.query({
+      query: (coinid) => createrequest(`/coin/${coinid}`),
+    }),
   }),
 });
 
 // export getcryptos as a hook created by redux to get all the datafor your query
-export const { useGetCryptosQuery } = cryptoApi;
+export const { useGetCryptosQuery, useGetCryptosDetailQuery } = cryptoApi;
 
 /* const options = {
     method: 'GET',
@@ -40,4 +43,6 @@ export const { useGetCryptosQuery } = cryptoApi;
       'X-RapidAPI-Key': '0e23dfd609mshd4ac7e0b2521576p13a5adjsn09d2b8c5d60c',
       'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
     }
-  };*/
+  };
+  
+  */

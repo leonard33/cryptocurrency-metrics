@@ -2,14 +2,22 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  color: blue;
+  color: white;
   border-radius: 10px;
 }
 
 .back {
   position: absolute;
   top: 20px;
-  left: 10px;
+  left: 7px;
   font-size: 30px;
   color: black;
+}
+
+.logo {
+  margin-right: -10px;
+}
+
+.logo-name {
+  font-size: 16px;
 }
