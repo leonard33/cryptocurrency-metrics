@@ -31,6 +31,9 @@
 [Cryptometrics](https://62b607f4c1e6e80a8b528028--tiny-pony-b90692.netlify.app/)
 ## Getting Started
 
+## LIVE VIDEO DEMO LINK
+[CHECK VIDEO](https://www.loom.com/share/16034748d4874fc8ba3a2d1a82a2d266)
+
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
