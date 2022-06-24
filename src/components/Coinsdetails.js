@@ -16,7 +16,6 @@ const Coinsdetails = () => {
   coined = coindetail?.data?.coins?.filter((item) => {
     return item.uuid == coinid;
   });
-
   return (
     <div className="details-container">
       <div className="top-container">
