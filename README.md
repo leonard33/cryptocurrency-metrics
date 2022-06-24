@@ -52,12 +52,17 @@ $ node --version && npm --version
 
 Clone the repository using the GitHub link provided below.
 
+$ https://github.com/leonard33/cryptocurrency-metrics.git
 ### Install
 
 In the terminal, go to your file directory and run this command.
 
-```
-$ https://github.com/leonard33/cryptocurrency-metrics.git
+`npm install - to install node package`
+
+then run comand :
+
+ `npm start command`
+
 ```
 
 ### Usage
@@ -70,6 +75,8 @@ To check for linters, use the files provided by [Microverse](https://github.com/
 ```
 $ npm install
 ```
+For Test
+$ npm Run tests
 
 ### Deployment(Not available)
 
@@ -98,6 +105,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org/)
+- Nelson Sakwa the author of the original design
 - Code Reviewers
 
 ## 📝 License
