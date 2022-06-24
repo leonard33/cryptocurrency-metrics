@@ -21,7 +21,7 @@ const Cryptoitem = ({ icon, symbol, name, market }) => {
 Cryptoitem.propTypes = {
   name: PropTypes.string.isRequired,
   symbol: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.object.isRequired,
   market: PropTypes.string.isRequired,
 };
 

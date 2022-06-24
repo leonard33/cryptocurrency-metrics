@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from "react";
 import { useParams } from "react-router-dom";
 import millify from "millify";
@@ -11,17 +10,12 @@ const Coinsdetails = () => {
   const { data: coindetail, isFetching } = useGetCryptosDetailQuery(coinid);
 
   let coined = {};
-  let statistics = {};
+
   if (isFetching) return "Loading...";
 
   coined = coindetail?.data?.coins?.filter((item) => {
     return item.uuid == coinid;
   });
-
-  statistics = coindetail?.data?.coins?.stats?.filter((item) => {
-    return item.uuid == coinid;
-  });
-
   return (
     <div className="details-container">
       <div className="top-container">

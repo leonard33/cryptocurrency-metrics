@@ -26,23 +26,3 @@ export const cryptoApi = createApi({
 
 // export getcryptos as a hook created by redux to get all the datafor your query
 export const { useGetCryptosQuery, useGetCryptosDetailQuery } = cryptoApi;
-
-/* const options = {
-    method: 'GET',
-    url: 'https://coinranking1.p.rapidapi.com/coins',
-    params: {
-      referenceCurrencyUuid: 'yhjMzLPhuIDl',
-      timePeriod: '24h',
-      'tiers[0]': '1',
-      orderBy: 'marketCap',
-      orderDirection: 'desc',
-      limit: '50',
-      offset: '0'
-    },
-    headers: {
-      'X-RapidAPI-Key': '0e23dfd609mshd4ac7e0b2521576p13a5adjsn09d2b8c5d60c',
-      'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
-    }
-  };
-  
-  */
