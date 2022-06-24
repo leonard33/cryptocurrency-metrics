@@ -1,0 +1,85 @@
+.icon-image {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 60px;
+  background-color: white;
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0, rgba(14, 30, 37, 0.32) 0 2px 16px 0;
+}
+
+.icon-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 900;
+  margin: 10px 0;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  font-size: 18px;
+  padding: 12px 0;
+  margin: 10px auto;
+  background-image: url("../assets/bgimage.jpg");
+  background-position: center;
+  border-bottom: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px -1px, rgba(0, 0, 0, 0.06) 0 2px 4px -1px;
+}
+
+.details-container {
+  margin: 15px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  background-image: url("../assets/stat.jpg");
+  box-shadow: rgba(50, 50, 93, 0.25) 0 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0 18px 36px -18px inset;
+}
+
+span {
+  color: white;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Stoke', serif;
+}
+
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+}
+
+.cryptolink a {
+  display: flex;
+  text-decoration: none;
+  align-self: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  padding: 5px;
+  align-items: center;
+}
+
+button {
+  margin-left: 2rem;
+  margin-top: 30px;
+  margin-bottom: 2rem;
+  background: orange;
+  border: none;
+  border-radius: 10px;
+}
