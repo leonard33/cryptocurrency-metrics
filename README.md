@@ -27,8 +27,8 @@
 - [x] Code Editor: VS Code
 
 
-## Live Demo (Not available)
-
+## Live Demo 
+[Cryptometrics](https://62b607f4c1e6e80a8b528028--tiny-pony-b90692.netlify.app/)
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
