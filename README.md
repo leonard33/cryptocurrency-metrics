@@ -36,8 +36,6 @@
 
 ## Getting Started
 
-## LIVE VIDEO DEMO LINK
-[CHECK VIDEO](https://www.loom.com/share/16034748d4874fc8ba3a2d1a82a2d266)
 
 To get a local copy up and running follow these simple steps.
 
@@ -91,15 +89,10 @@ $ npm Run tests
 
 ## Author
 
-👤 **Leonard Kombo** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
-
-- GitHub: [![GitHub Badge](https://img.shields.io/badge/-leonard33-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/leonard33)
-
-- Twitter: [![Twitter Badge](https://img.shields.io/badge/-KomboLeonard1-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/@LeonardKombo1)
-
-- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-leonardkombo-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/leonardkombo/)
-
-- Gmail: [![Gmail Badge](https://img.shields.io/badge/-leonardkombo14-white?logo=Gmail&logoColor=EA4335&style=plastic)](mailto:leonardkombo14@gmail.com)
+👤  Leonard Kombo
+- GitHub: [@githubhandle](https://github.com/leonard33)
+- Twitter: [@twitterhandle](https://twitter.com/leonardkombo1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/leonardkombo)
 
 ## 🤝 Contributing
 
@@ -113,7 +106,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org/)
-- Nelson Sakwa the author of the original design
+- Nelson Sakwa author of the original [design](https://www.behance.net/sakwadesignstudio)
 - Code Reviewers
 
 ## 📝 License
